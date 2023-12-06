@@ -7,3 +7,52 @@
   ],
   "profile": { "name": "typicode" }
 }
+
+{
+  "heroes": [
+    {
+      "id": 2,
+      "name": "Unknown Hero",
+      "description": "Lurking in the Shadows",
+      "element": "wind"
+    },
+    {
+      "id": 3,
+      "name": "Sea Hero",
+      "description": "Like Aquaman, but not from DC",
+      "element": "water"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "name": "all",
+      "label": "All",
+      "className": "btn-outline-dark"
+    },
+    {
+      "id": "fire",
+      "name": "fire",
+      "label": "Fire",
+      "className": "btn-danger"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "label": "Water",
+      "className": "btn-primary"
+    },
+    {
+      "id": "wind",
+      "name": "wind",
+      "label": "Air",
+      "className": "btn-success"
+    },
+    {
+      "id": "earth",
+      "name": "earth",
+      "label": "Earth",
+      "className": "btn-secondary"
+    }
+  ]
+}
